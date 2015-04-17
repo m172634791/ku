@@ -1,0 +1,150 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 12px;
+    color: yellow;
+    background: #000;
+}
+img {
+    border: red solid 2px;
+}
+
+/*6.1*/
+#div_center1 {
+    margin: 0 auto;
+}
+#div_center2_outer {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+#div_center2_inner {
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+}
+#div_center1, #div_center2_inner {
+    height: 100px;
+    width: 960px;
+    background: red;
+    margin-bottom: 10px;
+}
+
+#border_radius {
+    width: 400px;
+    height:400px;
+    border: 4px solid #f00;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 2px;
+    float: right;
+}
+
+
+/*两列布局*/
+
+#two_column, #two_column2 {
+    clear: both;
+    padding-top:10px;
+    width: 100%;
+}
+#two_column_left {
+    float: left;
+}
+#two_column_left2 {
+    float:left;
+}
+#two_column_left,#two_column_left2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    display: inline-block;
+}
+
+#two_column_right, #two_column_right2 {
+    height: 100px;
+    background: blue;
+}
+#two_column_right2 {
+    margin-left: 100px;
+}
+#two_column_bottom, #two_column_bottom2 {
+    height: 100px;
+    width: 100%;
+    background: yellow;
+}
+
+
+
+/*三列布局*/
+.three-column {
+    background: red;
+    display: inline-block;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.three-column-list, .three-column-list2 {
+    clear: both;
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.three-column-list {
+    float: left;
+}
+.three-column-list2 {
+    position: relative;
+}
+.three-column-left, .three-column-right {
+    margin: 0 10px;
+}
+.three-column-left2 {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+.three-column-right2 {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+.three-column-left, .three-column-right, .three-column-left2, .three-column-right2  {
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+.three-column-middle, .three-column-middle2 {
+    background: green;
+    height: 100px;
+    margin: 0px 120px;
+}
+.three-column-left {
+    float: left;
+}
+.three-column-right {
+    float: right;
+}
+
+/*浮动布局，数量变化*/
+
+#float_n {
+    margin: 10px;
+    background: red;
+    display: inline-block;
+}
+
+.float-box {
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    background: blue;
+    float: left;
+}
